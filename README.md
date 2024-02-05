@@ -1,6 +1,6 @@
-# Automation with Docker for CI Workflows
+# Automation with Docker for CI Workflows | Updated
 
-[![Lint Code Base](https://github.com/bretfisher/docker-ci-automation/actions/workflows/call-super-linter.yaml/badge.svg)](https://github.com/bretfisher/docker-ci-automation/actions/workflows/call-super-linter.yaml)
+[![Lint Code Base](https://github.com/aravindgshanthi/docker-ci-automation/actions/workflows/call-super-linter.yaml/badge.svg)](https://github.com/aravindgshanthi/docker-ci-automation/actions/workflows/call-super-linter.yaml)
 
 > For Docker Community All Hands 2022
 
@@ -49,19 +49,19 @@ I also have a [LIVE course on learning GitHub Actions for DevOps automation and 
 
 ## This repository is part of my example DevOps repos on GitHub Actions
 
-- [bretfisher/github-actions-templates](https://github.com/BretFisher/github-actions-templates) - Main reusable templates repository
-- [bretfisher/super-linter-workflow](https://github.com/BretFisher/super-linter-workflow) - Reusable linter workflow
-- [bretfisher/docker-build-workflow](https://github.com/BretFisher/docker-build-workflow)- Reusable docker build workflow
-- (you are here) [bretfisher/docker-ci-automation](https://github.com/BretFisher/docker-ci-automation) - Step by step video and example of a Docker CI workflow
-- [My full list of container examples and tools](https://github.com/bretfisher)
+- [aravindgshanthi/github-actions-templates](https://github.com/aravindgshanthi/github-actions-templates) - Main reusable templates repository
+- [aravindgshanthi/super-linter-workflow](https://github.com/aravindgshanthi/super-linter-workflow) - Reusable linter workflow
+- [aravindgshanthi/docker-build-workflow](https://github.com/aravindgshanthi/docker-build-workflow)- Reusable docker build workflow
+- (you are here) [aravindgshanthi/docker-ci-automation](https://github.com/aravindgshanthi/docker-ci-automation) - Step by step video and example of a Docker CI workflow
+- [My full list of container examples and tools](https://github.com/aravindgshanthi)
 
 ## More reading
 
 [Docker Build/Push Action advanced examples](https://github.com/docker/build-push-action/tree/master/docs/advanced)
-[My full list of container examples and tools](https://github.com/bretfisher)
+[My full list of container examples and tools](https://github.com/aravindgshanthi)
 
 ## 🎉🎉🎉 Join my container DevOps community 🎉🎉🎉
 
 - [My "Vital DevOps" Discord server](https://devops.fan)
 - [My weekly YouTube Live show](https://bret.live)
-- [My courses and coupons](https://www.bretfisher.com/courses)
+- [My courses and coupons](https://www.aravindgshanthi.com/courses)
