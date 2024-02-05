@@ -1,19 +1,17 @@
 ---
-# template source: https://github.com/bretfisher/super-linter-workflow/blob/main/templates/call-super-linter.yaml
+# template source: https://github.com/aravindgshanthi/super-linter-workflow/blob/main/templates/call-super-linter.yaml
 name: Lint Code Base
 
 on:
-  
   push:
     branches: [main]
-  
+
   pull_request:
 
 jobs:
   call-super-linter:
-
     name: Call Super-Linter
-    
+
     permissions:
       contents: read # clone the repo to lint
       statuses: write #read/write to repo custom statuses
@@ -23,15 +21,15 @@ jobs:
     ### you can also call workflows from inside the same repo via file path
 
     #FIXME: customize uri to point to your own linter repository
-    uses: bretfisher/super-linter-workflow/.github/workflows/reusable-super-linter.yaml@main
-    
+    uses: aravindgshanthi/super-linter-workflow/.github/workflows/reusable-super-linter.yaml@main
+
     ### Optional settings examples
-    
+
     # with:
-      ### For a DevOps-focused repository. Prevents some code-language linters from running
-      ### defaults to false
-      # devops-only: false
-      
-      ### A regex to exclude files from linting
-      ### defaults to empty
-      # filter-regex-exclude: html/.*
+    ### For a DevOps-focused repository. Prevents some code-language linters from running
+    ### defaults to false
+    # devops-only: false
+
+    ### A regex to exclude files from linting
+    ### defaults to empty
+    # filter-regex-exclude: html/.*
